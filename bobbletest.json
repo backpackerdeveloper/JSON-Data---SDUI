@@ -7,63 +7,52 @@
         "div": {
           "items": [
             {
-              "type": "_template_close",
-              "alignment_horizontal": "right",
+              "type": "gif",
+              "gif_url": "https://lenadesign.org/wp-content/uploads/2021/01/snowfall-shop-copy.gif",
+              "width": {
+                "type": "fixed",
+                "value": 412
+              },
               "height": {
                 "type": "fixed",
-                "value": 28
+                "value": 70
               },
+              "preload_required": true
+            },
+            {
+              "type": "text",
+              "text": "-5 C",
+              "font_size": 30,
+              "width": {
+                "type": "wrap_content",
+                "constrained": true
+              },
+              "alignment_horizontal": "left",
+              "alignment_vertical": "center",
+              "text_color": "#fb0808",
               "margins": {
-                "top": 20,
-                "right": 24
+                "left": 0
               },
-              "width": {
-                "type": "fixed",
-                "value": 28
-              }
-            },
-            {
-              "type": "separator",
-              "width": {
-                "type": "match_parent"
-              },
-              "height": {
-                "type": "fixed",
-                "value": 38
-              },
-              "alignment_horizontal": "center",
-              "alignment_vertical": "top",
-              "transform": {
-                "rotation": 0
-              },
-              "margins": {
-                "top": 59
-              }
-            },
-            {
-              "lottie_params": {
-                "repeat_count": -1,
-                "repeat_mode": "restart",
-                "lottie_url": "https://lottie.host/e07b9c6e-d507-4f3a-b1bc-a69538a6f6be/2gmlFOfeDL.lottie"
-              },
-              "width": {
-                "type": "fixed",
-                "value": 100
-              },
-              "height": {
-                "type": "fixed",
-                "value": 100
-              },
-              "type": "_template_lottie",
-              "alignment_horizontal": "center",
-              "alignment_vertical": "center"
-            },
-            {
-              "text": "Hello World",
               "background": [
                 {
                   "type": "solid",
-                  "color": "#000"
+                  "color": "#030303"
+                }
+              ],
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 4
+                }
+              ],
+              "font_weight": "bold"
+            },
+            {
+              "text": "BUY HEATER",
+              "background": [
+                {
+                  "type": "solid",
+                  "color": "#f50a0a"
                 }
               ],
               "text_color": "#fff",
@@ -71,35 +60,28 @@
               "type": "_template_button",
               "width": {
                 "type": "fixed",
-                "value": 156
+                "value": 124
               },
-              "alignment_horizontal": "center",
-              "alignment_vertical": "top",
-              "margins": {
-                "top": 364
-              },
+              "alignment_horizontal": "right",
+              "alignment_vertical": "center",
               "height": {
                 "type": "fixed",
-                "value": 35
+                "value": 30
               },
-              "text_alignment_horizontal": "center"
-            },
-            {
-              "type": "image",
-              "width": {
-                "type": "match_parent"
+              "alpha": 1,
+              "paddings": {
+                "top": 8,
+                "right": 22,
+                "bottom": 2,
+                "left": 30
               },
-              "height": {
-                "type": "fixed",
-                "value": 100
-              },
-              "preload_required": true,
-              "alignment_horizontal": "center",
-              "alignment_vertical": "top",
-              "margins": {
-                "top": 434
-              },
-              "image_url": "data:image/png;base64,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"
+              "font_weight": "bold",
+              "actions": [
+                {
+                  "log_id": "action_id",
+                  "url": "https://www.amazon.in/Room-Heaters/b?ie=UTF8&node=2083424031"
+                }
+              ]
             }
           ],
           "background": [
